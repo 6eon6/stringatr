@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #212529;
+    text-align: left;
+    background-color: whitesmoke;
+    width: 520px;
+}
+
+.hidden {
+    display: none;
+}
+
+.center {
+    margin: 0 0 0 0px;
+    width: 75%;
+}
+
+.centerBorderless {
+    margin: 0 0 0 0px;
+    width: 0px;
+    padding: 0px;
+    display: none;
+    height: 0px;
+}
+
+.centerImage{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+    width: 500px;
+}
+
+.centerCanvasMedium {
+padding-left: 0;
+padding-right: 0;
+margin-left: 0;
+margin-right: 0;
+display: block;
+width: 500px;
+}
+
+.centerCanvasLarge {
+padding-left: 0;
+padding-right: 0;
+margin-left: 0;
+margin-right: 0;
+display: block;
+width: 500px;
+}
+
+textarea {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.custom-col {
+    width: 100px; /* Atur lebar sesuai kebutuhan Anda */
+    height: 21px;
+    float: left; /* Mengatur agar elemen-elemen berada dalam satu baris */
+    padding-right: 0px; /* Memberikan sedikit padding antar elemen */
+    margin: 0 0 0 19px;
+    
+}
+.form-control {
+    font-size: 12px;
+    margin-left: 0px;
+    margin-right: 0;
+    padding: 0px;
+    outline: none !important; /* Menghilangkan garis luar saat elemen mendapatkan fokus */
+    
+}
+
+.form-control:focus {
+    box-shadow: none !important; /* Menghilangkan bayangan saat elemen mendapatkan fokus */
+}
+.label-custom {
+    font-size: 12px;
+    margin-left: 0px;
+    margin-right: 0;
+    padding: 0px;
+    background-clip: content-box;
+}
+#numberOfLines,
+#numberOfPins,
+#lineWeight {
+    width: 100px;
+    height: 21px;
+}
+br {
+    margin-bottom: 10px; /* Atur spasi di bawah setiap elemen */
+}
+.form-group label {
+    display: block; /* Agar label dapat memiliki lebar */
+    
+    margin: 0 auto; /* Posisikan label secara horizontal di tengah */
+    margin-bottom: 0px;
+}
+.btn.btn-primary.btn-file {
+    width: 250px; /* Atur lebar kotak label */
+    height: 21px; /* Atur tinggi kotak label */
+    padding: 1px;
+    margin-right: 10px; 
+    color: #000000;
+    background-color: white;
+    border: 1px solid lightgray; /* Menampilkan garis tepi dengan ketebalan 1px dan warna hitam */
+    transition: border-color 0.3s;  /* Efek transisi untuk perubahan warna */
+    background-clip: content-box;
+}
+
+.btn.btn-primary.btn-file:hover {
+    border-color: blue;/* Merubah warna latar saat kursor di atasnya */
+}
+.btn.btn-primary.btn-file:active {
+    background-color: white; /* Mengatur warna latar saat tombol diklik */
+    border-color: blue; /* Mengatur warna border saat tombol diklik */
+    color: #000000;
+}
+#step1,
+#step2,
+#step3,
+#showPins {
+    font-size: 12px; 
+    margin-bottom: 10px;
+}
+
+.col {
+    margin-right: 20px; /* Atur margin kanan kolom menjadi 10px */
+    width: 600px; /* Atur lebar sesuai kebutuhan Anda */
+    height: 536px;
+    float: left; /* Mengatur agar elemen-elemen berada dalam satu baris */
+    padding-right: 0px;
+}
